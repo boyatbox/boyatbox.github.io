@@ -25,7 +25,7 @@
 .post-link {
   margin-bottom: 1rem;
   border: 1px solid #58a6ff;
-  background-color: #1e1e1e;
+  background-color: #0b1926;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -34,6 +34,13 @@ a {
   color: #58a6ff;
   text-decoration: none;
 }
+/* 
+ul a {
+  color: #92bf6f;
+}
+ul > li {
+  padding-top: 10px;
+} */
 
 a:visited {
   /* color: #1c426d; */
