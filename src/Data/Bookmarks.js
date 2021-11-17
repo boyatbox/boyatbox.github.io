@@ -73,4 +73,8 @@ export const bookmarks = [
     link: "https://tom.preston-werner.com/2009/05/19/the-git-parable.html?utm_source=pocket_mylist",
     text: "The Git Parable",
   },
+  {
+    link: "https://thepugautomatic.com/2009/02/git-reset-soft-as-stash-replacement-and-undo/",
+    text: "git reset --soft as stash replacement and undo",
+  },
 ];
