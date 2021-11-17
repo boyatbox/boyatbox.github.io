@@ -1,2 +1,0 @@
-(this["webpackJsonpboyatbox.github.io"]=this["webpackJsonpboyatbox.github.io"]||[]).push([[0],{11:function(e,t,c){"use strict";c.r(t);var n=c(1),i=c.n(n),o=c(3),r=c.n(o),s=(c(8),c(9),c(0));var a=function(){return Object(s.jsx)("div",{className:"App",children:Object(s.jsx)("header",{className:"App-header",children:Object(s.jsx)("h1",{children:"\ud83c\udf37 Hi"})})})};r.a.render(Object(s.jsx)(i.a.StrictMode,{children:Object(s.jsx)(a,{})}),document.getElementById("root"))},8:function(e,t,c){},9:function(e,t,c){}},[[11,1,2]]]);
-//# sourceMappingURL=main.d153aaa8.chunk.js.map
