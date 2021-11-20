@@ -1,9 +1,10 @@
-import { bookmarks } from "./Data/Bookmarks";
+import { bookmarks } from "../Data/BookmarkData";
 export function Post(props) {
+  const filterBookmarks = bookmarks.filter((item) => item.link);
   return (
     <div>
-      <ul style={{ fontSize: "1.2rem" }}>
-        {bookmarks.map((item, index) => {
+      <ul style={{ fontSize: "1.2rem", margin: 0 }}>
+        {filterBookmarks.map((item, index) => {
           return (
             <li key={index} style={{ paddingBottom: "10px" }}>
               <a href={item.link} target="_blank">

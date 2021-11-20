@@ -12,41 +12,42 @@
 }
 
 .app-header {
-  border-bottom: 1px solid #58a6ff;
+  height: 3rem;
   display: flex;
   align-items: center;
 }
 .app-main {
-  padding-top: 1rem;
   display: flex;
   flex-direction: column;
 }
 
 .post-link {
   margin-bottom: 1rem;
-  border: 1px solid #58a6ff;
-  background-color: #0b1926;
-  padding: 1rem;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 a {
   color: #58a6ff;
   text-decoration: none;
 }
-/* 
-ul a {
-  color: #92bf6f;
-}
-ul > li {
-  padding-top: 10px;
-} */
-
-a:visited {
-  /* color: #1c426d; */
+a:hover {
+  color: #32c8b2;
+  text-decoration: none;
 }
 
 .header-span {
+  font-family: "Electrolize", sans-serif;
   color: pink;
-  font-weight: 300;
+}
+.header-span:hover {
+  color: rgb(226, 58, 114);
+}
+
+.post-link-icon:hover {
+  transform: rotate(20deg);
+}
+
+.text-div{
+  font-size: 1.2rem;
 }
