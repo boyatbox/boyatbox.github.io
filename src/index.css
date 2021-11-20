@@ -1,3 +1,12 @@
+:root {
+  --bg-drak1: #1d1f21;
+  --bg-drak2: #282c34;
+  --txt-green: #2bbc8a;
+  --txt-pink: pink;
+  --txt-pink2: rgb(226, 58, 114);
+  --txt-blue: #58a6ff;
+}
+
 html,
 body {
   box-sizing: border-box;
