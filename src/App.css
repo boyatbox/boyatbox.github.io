@@ -58,3 +58,47 @@ a:hover {
 .text-div {
   font-size: 1.2rem;
 }
+
+code {
+  background-color: #36404d;
+  border-radius: 5px;
+}
+
+table,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 1rem;
+}
+
+table tbody {
+  font-size: 1rem;
+  color: #ff7b72;
+  color: #7ee787;
+  color: #c9d1d9;
+}
+
+section > p,
+ul {
+  font-size: 1rem;
+  color: #c9d1d9;
+  line-height: 1.5rem;
+}
+
+section h4 {
+  margin-bottom: 0rem;
+}
+
+section ul,
+p {
+  margin-top: 0.2rem;
+}
+span.code {
+  background-color: #36404d;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

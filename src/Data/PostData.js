@@ -10,26 +10,6 @@ export const PostData = [
     icon: "📤",
   },
   {
-    id: 3,
-    icon: "📑",
-    text: "Stage/Index/Cache",
-  },
-  {
-    id: 4,
-    icon: "🗃️",
-    text: "Commit",
-  },
-
-  {
-    id: 5,
-    icon: "🏷️",
-    text: "Tags",
-  },
-  {
-    icon: "",
-    text: "",
-  },
-  {
     icon: "",
     text: "",
   },
