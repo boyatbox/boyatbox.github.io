@@ -3,7 +3,7 @@ export function Post(props) {
   const filterBookmarks = bookmarks.filter((item) => item.link);
   return (
     <div>
-      <ul style={{ fontSize: "1.2rem", margin: 0 }}>
+      <ul style={{ margin: 0 }}>
         {filterBookmarks.map((item, index) => {
           return (
             <li key={index} style={{ paddingBottom: "10px" }}>

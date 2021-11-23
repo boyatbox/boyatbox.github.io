@@ -64,6 +64,16 @@ export function Checkout(props) {
                   discarded.
                 </td>
               </tr>
+              <tr>
+                <td>git checkout -- master</td>
+                <td>
+                  Effectively same as previous. Here we are trying to checkout a
+                  file named master. Unfortunately there is also branch called
+                  master. If we dont use the double dash git will switch to
+                  master branch instead. It tells git to not interpret any more
+                  arguments as options.
+                </td>
+              </tr>
             </tbody>
           </table>
         </section>
